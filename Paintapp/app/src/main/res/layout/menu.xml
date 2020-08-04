@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/menu">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@android:color/transparent"
+                    android:src="@mipmap/pro"
+                    android:enabled="false"
+                    android:contentDescription="@string/icons" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@android:color/transparent"
+                    android:enabled="false"
+                    android:src="@mipmap/pro"
+                    android:contentDescription="@string/icons" />
+
+                <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/pro"
+                    android:enabled="false"
+                android:contentDescription="@string/icons" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/camera"
+                    android:textColor="#ff33b5e5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/take_photo" />
+
+                <Button
+                    android:id="@+id/gallery"
+                    android:textColor="#ff33b5e5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/choose_from_gallery" />
+
+                <Button
+                    android:id="@+id/pdf"
+                    android:textColor="#ff33b5e5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/add_pdf" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Paintapp</string>
+    <string name="welcome">Welcome</string>
+    <string name="icon">icon</string>
+    <string name="start">start</string>
+    <string name="start_fresh">Start Fresh</string>
+    <string name="text">Build your own video lectures/presentations with creative drawing tools.</string>
+    <string name="let_s_start">Let\'s Start →</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your Password ?</string>
+    <string name="back">back</string>
+    <string name="pic">pic</string>
+    <string name="icons">icons</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="add_pdf">Add PDF</string>
+    <string name="log_out">Log Out</string>
+    <string name="select">Select</string>
+    <string name="delete">Delete</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="arrow">arrow</string>
+    <string name="erase_all">Erase All</string>
+</resources>
